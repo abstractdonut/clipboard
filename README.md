@@ -6,7 +6,7 @@ A little script I wrote to quickly share text between different computers using 
 
 This Python3 script relies on the `pynput`, `pyperclip`, and `boto3` libraries.
 
-```bash
+```console
 pip3 install pynput
 pip3 install pyperclip
 pip3 install boto3
@@ -16,8 +16,8 @@ The script uses a single hardcoded AWS S3 file to communicate between different 
 
 Note that `pynput` and `pyperclip` may require additional setup depending on your system. On Ubuntu, I had to install `xclip` to get `pyperclip` working.
 
-```bash
-pip3 install xclip
+```console
+sudo apt install xclip
 ```
 
 See [here](https://pyperclip.readthedocs.io/en/latest/) for more info.
@@ -27,7 +27,7 @@ See [here](https://pyperclip.readthedocs.io/en/latest/) for more info.
 
 Run the script with
 
-```bash
+```console
 python3 clipboard.py
 ```
 
